@@ -4,7 +4,7 @@ int main()
 {
 	int test_case;
 	int arr[1000] = {0, };
-	int tmp;
+	int temp;
 	
 	scanf("%d", &test_case);
 	
@@ -19,9 +19,9 @@ int main()
 		{
 			if (arr[j + 1] < arr[j])
 			{
-				tmp = arr[j + 1];
+				temp = arr[j + 1];
 				arr[j + 1] = arr[j];
-				arr[j] = tmp;
+				arr[j] = temp;
 			}
 		}
 	}
