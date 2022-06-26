@@ -50,13 +50,14 @@ int main()
         if(j >= len)
         break;
     }
-
+    
+    cout << "A+B : ";
     for(int temp = len - 1; temp >=0; temp--)
     {
         cout << resultArr[temp];
     }
 
-    cout << endl;
+    cout << endl << "A+B transform : ";
 
     int last = 0;
 
