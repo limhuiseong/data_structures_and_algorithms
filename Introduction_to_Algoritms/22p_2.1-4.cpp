@@ -14,6 +14,7 @@ int main()
     int len;
 
     cout << "A:"; cin >> A;
+    fflush(stdin);
     cout << "B:"; cin >> B;
 
     int i = 0;
