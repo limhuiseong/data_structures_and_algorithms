@@ -13,9 +13,9 @@ int main()
     int Blen = 0;
     int len;
 
-    cout << "A:"; cin >> A;
+    cout << "A : "; cin >> A;
     fflush(stdin);
-    cout << "B:"; cin >> B;
+    cout << "B : "; cin >> B;
 
     int i = 0;
 
@@ -81,6 +81,7 @@ int main()
         }
 
     }
+    if(last != 0)
     cout << last;
 
     for(int temp = len - 1; temp >=0; temp--)
